@@ -21,7 +21,13 @@ const Navbar = () => {
             <span>Tracy</span>
             <Notifications className="icon"/>
             <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&drp=2&w=500" alt="" />
-            <ArrowDropDown className="icon"/>
+            <div className="profile">
+                <ArrowDropDown className="icon"/>
+                <div className="options">
+                    <span>Settings</span>
+                    <span>LogOut</span>
+                </div>
+            </div>   
         </div>   
       </div>
     </div>
