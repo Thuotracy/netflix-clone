@@ -1,6 +1,24 @@
 .listitem{
     width: 225px;
     height: 120px;
-    background-color: white;
+    background-color: var(--main-color);
     margin-right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &:hover{
+        width: 325px;
+        height: 300px;
+    }
+
+    img{
+        height: 140px;
+    }
 }
