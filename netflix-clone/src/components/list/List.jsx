@@ -7,6 +7,9 @@ const List = () => {
       <span className="listTitle">Continue to watch</span>
       <div className="wrapper">
         <ArrowBackIosOutlined/>
+          <div className="container">
+            
+          </div>
         <ArrowForwardIosOutlined/>
       </div>
     </div>
