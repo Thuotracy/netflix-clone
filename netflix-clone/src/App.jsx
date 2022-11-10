@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import Home from './pages/home/Home';
-import './App.scss';
+import "./App.scss"
+import Home from "./pages/home/Home";
+import Watch from "./pages/watch/Watch";
 
-function App() {
-  return (
-    <Home/>
-  );
-}
+const App = () => {
+  return <Watch/>;
+};
 
 export default App;
