@@ -25,7 +25,7 @@ export default function List() {
 
   return (
     <div className='list'>
-      <span className='listTitle'>Continue to watch</span>
+      <span className='listTitle'>Continue watching</span>
       <div className='wrapper'>
         <ArrowBackIosOutlined className='slideArrow left' onClick={() => handleClick("left")} style={{display: !isMoved && 'none'}}/>
           <div className='container' ref={listRef}>
