@@ -1,15 +1,8 @@
 import "./login.scss";
 
 export default function Login() {
- 
-  const handleStart = () => {
-    setEmail(emailRef.current.value);
-  };
-  const handleFinish = () => {
-    setPassword(passwordRef.current.value);
-  };
   return (
-    <div className="register">
+    <div className="login">
       <div className="top">
         <div className="wrapper">
           <img
@@ -17,7 +10,6 @@ export default function Login() {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
             alt=""
           />
-          <button className="loginButton">Sign In</button>
         </div>
       </div>
       <div className="container">
