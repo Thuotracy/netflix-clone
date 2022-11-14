@@ -18,6 +18,9 @@ export default function Login() {
           <input type="email" placeholder="Email or phone number" />
           <input type="password" placeholder="Password" />
           <button className="loginButton">Sign In</button>
+          <span>
+            New to Netflix? <b>Sign up now.</b>
+          </span>
         </form>    
       </div>
     </div>
