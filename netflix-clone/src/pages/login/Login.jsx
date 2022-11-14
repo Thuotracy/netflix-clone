@@ -1,14 +1,7 @@
-import { useRef } from "react";
-import { useState } from "react";
 import "./login.scss";
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
-  const emailRef = useRef();
-  const passwordRef = useRef();
-
+ 
   const handleStart = () => {
     setEmail(emailRef.current.value);
   };
