@@ -67,6 +67,23 @@
             margin-top: 20px;
             height: 50px;
             border-radius: 5px;
+
+            input{
+                flex: 9;
+                height: 100%;
+                border: none;
+                padding: 0 10px;
+            }
+
+            .registerButton{
+                flex: 3;
+                height: 100%;
+                background-color: red;
+                border: none;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+            }
         }
     }
 }
