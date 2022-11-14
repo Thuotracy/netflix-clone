@@ -12,6 +12,10 @@ export default function Register() {
             <h1>Unlimited movies, TV shows and more.</h1>
             <h2>Watch anywhere, Cancel anytime.</h2>
             <p>Ready to watch? Enter your Email to create or restart your membership</p>
+            <div className='input'>
+                <input type="email" placeholder='email address' />
+                <button className='registerButton'>Get started</button>
+            </div>
         </div>
     </div>
   )
