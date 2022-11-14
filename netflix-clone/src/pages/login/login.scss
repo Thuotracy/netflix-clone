@@ -66,6 +66,13 @@
                 font-size: 18px;
                 font-weight: 500;
                 cursor: pointer;
-              }
+
+                span {
+                    color: lightgray;
+                    b {
+                      color: white;
+                    }
+            }
         }
+    }
 }
